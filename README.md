@@ -1,1 +1,3 @@
 # Exoplanet-Detection
+
+In this project, I learned how Exoplanets are identified - using graphs of light from distant stars, and a dip in this light in a repeated pattern shows that it has a planet orbiting it. We used a dataset of about five thousand of these graphs, some showing exoplanets, and some not, and we tried to train a model to recognize which ones were and weren't exoplanets. Unfortunately, most of the graphs were of non-exoplanets, so we used methods such as SMOTE (which creates artificial data points based on ones near it) and KNN (which bases its decision based on a certain amount of data points near it). We found that SMOTE worked better and got better results from it.
